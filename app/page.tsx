@@ -37,7 +37,7 @@ export default function WorkshopHomePage() {
         {/* Hero Section */}
         <div className='grid-row margin-top-5'>
           <h2>
-            eoViz Storytelling Workshop for ESIP July 2025
+            2025 July ESIP Storytelling Workshop
           </h2>
           <p className='margin-top-2'>
             Transform your Earth science research into compelling interactive stories. 

@@ -51,9 +51,10 @@ export default function Header() {
   return (
     <VedaUIConfigProvider>
       <PageHeader
-        title={'Earthdata VEDA Dashboard'}
+        title={'2025 July ESIP Storytelling Workshop'}
         mainNavItems={navItems}
         subNavItems={subNavItems}
+        version={''}
         logoSvg={
           <div id='logo-container-link'>
             {/*

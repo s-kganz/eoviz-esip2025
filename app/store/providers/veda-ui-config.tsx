@@ -10,6 +10,8 @@ export default function VedaUIConfigProvider({ children }: { children: any }) {
         envMapboxToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? '',
         envApiStacEndpoint: process.env.NEXT_PUBLIC_API_STAC_ENDPOINT ?? '',
         envApiRasterEndpoint: process.env.NEXT_PUBLIC_API_RASTER_ENDPOINT ?? '',
+        betaMode: false,
+        showBeta: false,
         navigation: {
           LinkComponent: Link,
           linkProps: {

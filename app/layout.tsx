@@ -19,15 +19,15 @@ const Footer = dynamic(() => import('./components/footer'), {
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl ?? 'http://localhost:3000'),
   title: {
-    default: 'eoViz Storytelling Workshop - ESIP July 2025',
-    template: '%s | eoViz Workshop',
+    default: '2025 July ESIP Storytelling Workshop',
+    template: '%s | ESIP Workshop',
   },
   description: 'Hands-on workshop for Earth scientists to create engaging data stories using eoViz/VEDA tools.',
   openGraph: {
-    title: 'eoViz Storytelling Workshop - ESIP July 2025',
+    title: '2025 July ESIP Storytelling Workshop',
     description: 'Learn to transform your Earth science research into compelling interactive stories.',
     url: baseUrl,
-    siteName: 'eoViz Workshop',
+    siteName: 'ESIP Workshop',
     locale: 'en_US',
     type: 'website',
   },
