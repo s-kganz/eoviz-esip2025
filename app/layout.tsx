@@ -53,6 +53,26 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <div className='minh-viewport display-flex flex-column'>
+          {/* Simple eoViz banner */}
+          <div style={{ backgroundColor: '#f8fafc', borderBottom: '1px solid #e2e8f0', padding: '8px 0' }}>
+            <div className='grid-container'>
+              <div className='grid-row flex-justify-center'>
+                <div className='text-center'>
+                  <span style={{ fontSize: '14px', color: '#64748b' }}>
+                    Part of the eoViz platform • 
+                    <a 
+                      href='https://eoviz.com' 
+                      style={{ color: '#2563eb', textDecoration: 'underline', marginLeft: '4px' }}
+                      target='_blank' 
+                      rel='noopener noreferrer'
+                    >
+                      View all tools
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
           <Header />
           <main id='pagebody' className='flex-fill' tabIndex={-1}>
             {children}
