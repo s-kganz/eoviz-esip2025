@@ -57,11 +57,7 @@ export default function Header() {
   return (
     <VedaUIConfigProvider>
       <PageHeader
-<<<<<<< Updated upstream
-        title={'2025 July ESIP Storytelling Workshop'}
-=======
         title={'VEDA Dashboard - ESIP Workshop'}
->>>>>>> Stashed changes
         mainNavItems={navItems}
         subNavItems={subNavItems}
         version={''}
