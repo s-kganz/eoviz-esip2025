@@ -2083,10 +2083,10 @@
   resolved "https://registry.npmjs.org/@tanstack/table-core/-/table-core-8.21.3.tgz#2977727d8fc8dfa079112d9f4d4c019110f1732c"
   integrity sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==
 
-"@teamimpact/veda-ui@6.6.4":
-  version "6.6.4"
-  resolved "https://registry.npmjs.org/@teamimpact/veda-ui/-/veda-ui-6.6.4.tgz#bbb308adc91710152fab365ebe07a3e0d4a806e5"
-  integrity sha512-QioZUaDci2ANm3AE+nwKJ+7SThzGBJto44Q7sU0CFWZINtnmqLCrzQO0Mh/vc9Jmi6hvR7usC9QFsAq2SQSztg==
+"@teamimpact/veda-ui@6.10.1":
+  version "6.10.1"
+  resolved "https://registry.npmjs.org/@teamimpact/veda-ui/-/veda-ui-6.10.1.tgz#34e5aafd75942bf04b27631a1b924bb6e515b849"
+  integrity sha512-CFoCS4QhpFaXk218ICx/YGGPva0BTJ2c0zxjHNrN1DaL3708EBI19EM5U7oja9TM4evAsE4/3DNRnppxRs5YEQ==
   dependencies:
     "@codemirror/lang-markdown" "^6.1.1"
     "@codemirror/state" "^6.2.1"
