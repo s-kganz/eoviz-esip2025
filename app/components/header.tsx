@@ -42,8 +42,8 @@ export const subNavItems: NavItem[] = [
   {
     id: 'contact-us',
     title: 'Contact us',
-    actionId: 'open-google-form',
-    type: 'action',
+    to: 'https://developmentseed.org/contact/',
+    type: 'externalLink',
   },
 ];
 

@@ -12,9 +12,10 @@ You can edit all the files directly in Github. If you would like to use your loc
 8. In order to continue editing content, open your branch in a new tab by right clicking on the branch name in the pull request and selecting to open in a new tab. Now you will be able to make changes and then see those changes built in your pull request on the original tab.
 
 Now it's time to write a story story! We have two options available:
--  Make a note of the ```id``` and ```layerid``` of the dataset and variable you're interested in telling a story with
 - **Crafting your own story with some of the available datasets.** Navigate to app -> content -> stories -> select ```template-story.mdx``` and open it in GitHub editor (the pencil symbol). Try writing in your own story and swapping out the datasets which are preloaded. There are two widgets to test - first is a comparison map slider between two dates of the same dataset. Another is a scrollytelling widget that allows you to jump around on a map and show different datasets.
 - **Contribute to an existing agriculture story by adding a mapping widget.** Navigate to app -> content -> stories -> select ```sat-data-agriculture.mdx```. This is a pre-made story that does not show any interactive maps highlighting the GEOGLAM dataset. Try adding any type of widget (getting inspiration from the ```template-story.mdx``` or any other posted story). This will require you to get metadata information for the GEOGLAM dataset which can be found under app -> content -> datasets -> ```geoglam.mdx```
+
+Make a note of the ```id``` and ```layerid``` of the dataset and variable you're interested in telling a story with
 
 ## Getting Started
 
