@@ -42,7 +42,7 @@ export const subNavItems: NavItem[] = [
   {
     id: 'contact-us',
     title: 'Contact us',
-    to: 'https://developmentseed.org/contact/',
+    href: 'https://developmentseed.org/contact/',
     type: 'externalLink',
   },
 ];
