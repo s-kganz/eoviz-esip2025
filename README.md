@@ -19,17 +19,15 @@ Make a note of the ```id``` and ```layerid``` of the dataset and variable you're
 
 ## Getting Started
 
-To set up and run this project locally, refer to the [Development guide](./docs/DEVELOPMENT.md).
+To set up and run this project locally, refer to the [Development guide](./docs/DEVELOPMENT.md) or ask a facilitator.
 
 ## Documentation
 
 Documentation for this project can be found in the [`docs`](./docs) directory. Below is a quick summary of available resources:
 
 1. [How to Run / Development](./docs/DEVELOPMENT.md)
-2. [Overview of Architecture](./docs/ARCHITECTURE_OVERVIEW.md)
-3. [Configuration](./docs/CONFIGURATION.md)
-4. [Veda-UI Components](./docs/VEDA_UI_COMPONENTS.md)
-5. [STYLING / USWDS](./docs/STYLING.md)
+2. [Storytelling Widgets](https://github.com/NASA-IMPACT/veda-ui/blob/main/docs/content/MDX_BLOCKS.md)
+3. [Story MDX Metadata Configuration](https://github.com/NASA-IMPACT/veda-ui/blob/main/docs/content/CONTENT.md#stories)
 
 ## License
 
