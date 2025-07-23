@@ -1,18 +1,14 @@
 ---
-id: OCI_PACE_Chlorophyll_a
+id: OCI-PACE-Chlorophyll-a
 name: 'Chlorophyll a (L2)PACE / OCI'
-featured: true
 description: "The Chlorophyll a layer provides the near-surface concentration of chlorophyll a in milligrams of chlorophyll pigment per cubic meter (mg/m3) in the ocean."
-usage:
-  - url: 'https://www.earthdata.nasa.gov/data/tools/veda'
-    label: Learn more about VEDA
-    title: 'VEDA Platform Documentation'
+featured: true
 media:
-  src: https://earthdata.nasa.gov/s3fs-public/styles/hds_hero_half/public/2024-08/gedi-agbd-us-cloudfree--2-07-2023.jpg?VersionId=E_Zx.ti84WTiK8GB2XWD5VqrwZi7QNDl&itok=cjabduMn
-infoDescription: |
-  ::markdown    
-    - Temporal Extent: 2024 Feb 25 - Present
-    - Temporal Resolution: Daily
+  src: /images/dataset/gedi-agbd-us-cloudfree.jpg
+  alt: 2015 high resolution population density for Paris.
+  author:
+    name: NASA
+    url: 
 taxonomy:
   - name: Topics
     values:
@@ -22,6 +18,9 @@ taxonomy:
     values:
       - NASA
       - PACE
+infoDescription: |
+  ::markdown    
+     In partnership with the Center for International Earth Science Information Network (CIESIN) at Columbia University, Meta [formerly known as Facebook] used census data and computer vision techniques (Convolutional Neural Networks) to identify buildings from publicly accessible mapping services to create population density datasets. These high-resolution maps estimate the number of individuals living within 30-meter grid tiles on a global scale. The population estimates are based on data from the Gridded Population of the World (GPWv4) data collection.
 layers:
   - id: OCI_PACE_Chlorophyll_a
     stacApiEndpoint: https://dev.openveda.cloud/api/stac/
