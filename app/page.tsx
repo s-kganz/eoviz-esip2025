@@ -81,37 +81,6 @@ export default function WorkshopHomePage() {
           })}
         </div>
 
-        {/* What You'll Create */}
-        <div className='grid-row margin-top-5'>
-          <h2>What You'll Create</h2>
-        </div>
-        <div className='grid-row grid-gap-md margin-top-2'>
-          <div className='tablet:grid-col-6'>
-            <div className='text-center padding-4'>
-              <div className='font-size-6xl margin-bottom-2'>📝</div>
-              <h3>Your Own Data Story</h3>
-              <p className='margin-top-1'>
-                Write and configure interactive stories using MDX files with dynamic maps, charts, and narrative elements.
-              </p>
-              <div className='margin-top-2 padding-2 bg-base-lightest radius-md'>
-                <small className='text-base-dark'>✓ MDX configuration<br/>✓ Interactive maps<br/>✓ Data visualizations</small>
-              </div>
-            </div>
-          </div>
-          <div className='tablet:grid-col-6'>
-            <div className='text-center padding-4'>
-              <div className='font-size-6xl margin-bottom-2'>🌐</div>
-              <h3>Published Live Story</h3>
-              <p className='margin-top-1'>
-                See your work published on this live website with a shareable link to showcase your Earth science insights.
-              </p>
-              <div className='margin-top-2 padding-2 bg-base-lightest radius-md'>
-                <small className='text-base-dark'>✓ Live publication<br/>✓ Shareable links<br/>✓ Public showcase</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Example Stories */}
         {featuredStories.length > 0 && (
           <>
@@ -162,6 +131,16 @@ export default function WorkshopHomePage() {
             <p className='margin-top-1'>
               Start exploring the tools and example stories. During the workshop, 
               you'll learn storytelling techniques and build your own interactive narrative.
+            </p>
+            <p className='margin-top-2'>
+              <a 
+                href="https://github.com/developmentseed/eoviz-esip2025" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className='usa-link usa-link--external'
+              >
+                View source code on GitHub
+              </a>
             </p>
           </div>
           <div className='tablet:grid-col-4 display-flex flex-align-center'>
