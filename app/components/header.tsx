@@ -40,12 +40,6 @@ export const subNavItems: NavItem[] = [
     type: 'internalLink',
   },
   {
-    id: 'eoviz-main',
-    title: 'eoViz Platform',
-    to: 'https://eoviz.com',
-    type: 'externalLink',
-  },
-  {
     id: 'contact-us',
     title: 'Contact us',
     actionId: 'open-google-form',
