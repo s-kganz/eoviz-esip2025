@@ -4,13 +4,73 @@ name: Story Template
 description: "Use this template to create your own story and add any content that you would like."
 media:
   src: /images/story/
-  alt: ""
-  author:
-    name: 
-    url: 
+  alt: "alternative text to any src image above"
+  author: 
+    name: photo credit
+    url: url to any reference source for the image
 pubDate: 2025-07-23
 taxonomy:
   - name: Topics
     values:
       - ESIP
 ---
+
+<Block>
+  <Prose>
+    Authors: Your Name<sup>[1]</sup>
+    <sup>[1]</sup> Your Org
+
+    ## Introduction
+    Some written background and context... 
+  </Prose>
+</Block>
+
+
+
+<Block>
+  <Prose>
+    ## Comparison Map Slider Figure
+    Some written description of what your map comparisons are representing.
+  </Prose>
+
+  <Figure>
+    <Map
+      datasetId='so2'
+      layerId='OMSO2PCA-COG'
+      dateTime='2006-01-01'
+      zoom={4}
+      center={[117.22,35.66]}
+      compareDateTime='2021-01-01'
+    />
+    <Caption
+      attrAuthor='NASA'
+      attrUrl='https://nasa.gov/'
+    >
+    Map caption 
+    </Caption>
+  </Figure>
+</Block>
+
+
+<ScrollytellingBlock>
+  <Chapter
+    center={[0, 0]}
+    zoom={2}
+    datasetId='gpm-imerg'
+    layerId='GPM_3IMERGDF'
+    datetime='2020-02-01'
+  >
+    ## Header for scrolltelling chapter
+
+    Text for this scrollytelling chapter. 
+  </Chapter>
+  <Chapter
+    center={[119.7456, 36.30071]}
+    zoom={9}
+    datasetId='nighttime-lights'
+    layerId='nightlights-hd-monthly'
+    datetime='2020-02-01'
+  >
+    Written description fo your next scrollytelling chapter. 
+  </Chapter>
+</ScrollytellingBlock>
