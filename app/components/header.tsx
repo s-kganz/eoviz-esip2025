@@ -51,7 +51,7 @@ export default function Header() {
   return (
     <VedaUIConfigProvider>
       <PageHeader
-        title={'VEDA Dashboard - ESIP Workshop'}
+        title={'ESIP 2025 - Open Source Storytelling'}
         mainNavItems={navItems}
         subNavItems={subNavItems}
         version={''}
